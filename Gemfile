@@ -36,3 +36,15 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
+end
+
+# better_errors & binding_of_caller = better_errors
+# meta_request = railspanel (chrome extension)
+# make sure to run bundle command to install 
+# gem install [your gem file]
+# bundle install
